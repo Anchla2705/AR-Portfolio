@@ -8,7 +8,6 @@ import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -19,14 +18,15 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently and my published paper.
+          Here are a few projects I've worked on recently and my published
+          paper.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="chatify"
+              title="Toy shop"
               description="I have made small online toy store projet with basic e-commerce funtions build with react.js, Online Toy Store web application is used to buy exclusive toys and sporting equipment for kids. User add desired items to their shopping cart and save  You can enter any quantity of items as long as the number is within the inventory range. A soft delete is implemented on the deletion of products."
               link="https://github.com/Anchla2705/shopping-cart"
             />
@@ -36,9 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="My portfolio"
+              description=" A portfolio site is essential for every software developer to showcase projects and technical skills which demonstrates what you can do based upon your resume.
+              So I have built my site using react.js My personal portfolio project which features some of my github projects as well as my resume and technical skills This project was built using these technologies React.js,Node.js,Express.js,CSS3,VsCode,Vercel"
+              link="https://github.com/Anchla2705/AR-Portfolio"
             />
           </Col>
 
@@ -46,19 +47,9 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Food restro"
+              description="Online food ordering system build with react.js. food ordering system which supports html, css, bootstrap and js code with instant view of website A mini project on React js to implement Food ordering with login, signup, add to cart functionalities. and aading api calling feature."
+              link="https://github.com/Anchla2705/food-react-js"
             />
           </Col>
 
@@ -66,9 +57,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="Survey paper"
+              description="In this paper, experimental validation of the self-powered WSN for indoor monitoring proposed on multi-hop topology the choice of solor cell type microcontroller and  sensor are the factors for device development. the harvested energy must  be above the WSN energy requirements."
+              link="https://www.jetir.org/view?paper=JETIR2101062"
             />
           </Col>
 
@@ -76,10 +67,9 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Research paper"
+              description="This paper presents a proof of concept for self powered Internet of Things (IoT) device, which is maintenance free and  completely self-sustainable through energy harvesting  also you can search this paper ID SR21422180055 with this link https://www.ijsr.net/search_index_results.php" 
+              link="https://www.ijsr.net/archive/v10i4/SR21422180055.pdf"
             />
           </Col>
         </Row>
